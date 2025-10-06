@@ -2,6 +2,7 @@ import { Layout } from '@/components/layout'
 import { About } from '@/components/sections/about'
 import { Contact } from '@/components/sections/contact'
 import { Projects } from '@/components/sections/projects'
+import { SocialLinksDock } from '@/components/social-links-dock'
 import { Typography } from '@/components/typography'
 import { Button } from '@/components/ui/button'
 import Image from 'next/image'
@@ -52,6 +53,7 @@ const HomePage = () => {
             <About />
             <Projects featured />
             <Contact />
+            <SocialLinksDock enable={true}/>
         </Layout>
     )
 }
